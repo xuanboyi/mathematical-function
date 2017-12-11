@@ -7,11 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
-
+int quare(int a){
+    return a*a;
+}
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        int a = 13;
+        int result =quare(a);
+        NSLog(@"%d的平方为%d",a,result);
+        
     }
     return 0;
 }
